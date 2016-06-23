@@ -1,0 +1,1 @@
+# spree_store_credit_currency
