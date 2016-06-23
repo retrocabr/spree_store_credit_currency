@@ -6,36 +6,36 @@ TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
-Add this line to your application's Gemfile:
+1. Add this line to your application's Gemfile:
 
 ```ruby
-gem 'spree_store_credit_currency'
+gem 'spree_store_credit_currency', github: 'retrocabr/spree_store_credit_currency'
 ```
 
-And then execute:
+2. Install the gem using Bundler
 
-    $ bundle
+```ruby
+bundle install
+```
 
-Or install it yourself as:
+3. Copy and Run migrations
 
-    $ gem install spree_store_credit_currency
+```ruby
+bundle exec rails g spree_address_book:install
+```
+
+4. Restart your server
+
+  If your server was running, restart it so that it can find the assets properly.
 
 ## Usage
 
 TODO: Write usage instructions here
 
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/spree_store_credit_currency.
-
+Bug reports and pull requests are welcome on GitHub at https://github.com/retrocabr/spree_store_credit_currency.
 
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
