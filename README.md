@@ -21,7 +21,7 @@ bundle install
 3. Copy and Run migrations
 
 ```ruby
-bundle exec rails g spree_address_book:install
+bundle exec rails g spree_store_credit_currency:install
 ```
 
 4. Restart your server

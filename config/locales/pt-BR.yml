@@ -1,0 +1,5 @@
+pt-BR:
+  spree:
+    spree_store_credit_currency:
+      refundable: Reembolsável
+      is_refundable: Reembolsável?

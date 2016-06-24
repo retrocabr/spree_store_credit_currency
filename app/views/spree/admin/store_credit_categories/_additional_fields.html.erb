@@ -1,0 +1,9 @@
+<%= f.field_container :refundable, class: ['form-group'] do %>
+  <div class="checkbox">
+    <%= f.label :refundable do %>
+      <%= f.check_box :refundable %>
+      <%= Spree.t("spree_store_credit_currency.is_refundable") %>
+    <% end %>
+    <%= f.error_message_on :refundable %>
+  </div>
+<% end %>
